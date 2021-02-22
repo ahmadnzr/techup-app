@@ -53,7 +53,7 @@ for (var i = 0; i < post.length; i++) {
     badge.innerHTML =
         `<h3>${title}</h3>
         <img src="${img}"/>
-        <span class="kategori">${category}</span>
+        <span class="kategori">#${category}</span>
         <p>${content}</p>
         `;
     document.getElementById('content').appendChild(badge);
