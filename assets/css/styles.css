@@ -237,12 +237,19 @@ footer .footer-bottom{
 @media only screen and (max-width: 600px) {
     header{
         font-size: 10px;
+        height: 400px;
     }
     header ul{
         display: none;
     }
+    nav h1{
+        text-align: center;
+        margin-left: 50px;
+    }
     .qoute{
-        width: 300px;
+        width: 250px;
+        top: 100;
+        left: 50;
     }
     img.atas{
         display: none;
