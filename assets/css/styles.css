@@ -152,3 +152,68 @@ article .kategori {
     opacity: 0.9;
     cursor: pointer;
 }
+
+footer {
+    background-color: #ffe680ff;
+    color: #333333ff;
+    padding: 40px;
+    overflow: auto;
+    position: relative;
+}
+
+footer section{
+    display: block;
+    float: left;
+    margin: 10px;
+}
+footer section h2{
+    margin-bottom: 15px;
+}
+.profile{
+    width: 40%;
+}
+.profile img{
+    width: 200px;
+    display: block;
+    float: left;
+    border-radius: 10px;
+}
+tr{
+    text-align: left;
+    color: #333333ff;
+}
+
+/* help */
+.help{
+    width: 30%;
+}
+
+/* newpost */
+ul li{
+    line-height: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: #333333ff;
+    transition: all 0.3s ease;
+}
+footer a:hover{
+    opacity: 0.8;
+}
+/* footer bottom */
+
+footer .footer-bottom{
+    position: absolute;
+    background-color: #ffc45cff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 30px;
+}
+
+.footer-bottom p{
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+}
